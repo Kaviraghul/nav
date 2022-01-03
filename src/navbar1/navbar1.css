@@ -1,0 +1,55 @@
+.navBar1{
+    /*dimentions*/
+    width: 100%;    
+    height: 60px;
+    /*background color and text color*/
+    background-color: black;
+    color: aliceblue;
+    /*display*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navBarLeft,.navBarRight{
+    flex:3;
+}
+
+.navBarCenter{
+    flex:6;
+}
+
+.navBarList{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+}
+
+.navBar1ListItems{
+    margin-right: 30px;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.navBarProfileImage{
+    border-radius: 50%;
+    width: 30px;
+}
+
+.navBarRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+}
+
+
+
+.navBarLeft{
+    margin-left: 100px;
+}
+.navBarIcon{
+    margin-right: 20px;
+}
