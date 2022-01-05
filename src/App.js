@@ -1,10 +1,11 @@
-import NavBar1 from "./navbar1/NavBar1";
+// import NavBar1 from "./navbar1/NavBar1";
+import NavBar2 from "./navbar2/NavBar2";
 
 
 function App() {
   return (
     <div className="App">
-      <NavBar1 />
+      <NavBar2 />
     </div>
   );
 }

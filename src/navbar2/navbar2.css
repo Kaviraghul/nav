@@ -1,0 +1,61 @@
+.navbar2{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar2left,.navbar2right{
+    flex: 3;
+}
+.navbar2center{
+    flex:9;
+}
+
+.navbar2menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar2menulist{
+    margin-right: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 150;
+    padding: 7px;
+}
+
+.navbar2Logo{
+    margin-left: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 150;
+}
+
+.navbar2right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar2searchbar{
+    position: relative;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+.navbar2profileicon{
+    margin-right: 60px;
+    font-size: 25px;
+}
+
+.navbar2menu li:hover{
+    background-color: rgb(0,212,212);
+    border-radius: 3px;
+}
