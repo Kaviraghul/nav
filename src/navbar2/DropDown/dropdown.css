@@ -1,0 +1,29 @@
+.servicesSubMenu{
+    width: 12rem;
+    position: absolute;
+    top:45px;
+    z-index: -999;
+    list-style: none;
+    text-align: start;
+}
+
+.servicesSubMenu li{
+     background: rgb(0,212,212);
+     cursor: pointer;
+     
+}
+
+.servicesSubMenu li:hover{
+    background: rgb(11, 247, 247) !important;
+    
+}
+
+.subMenuItems{
+    display: block;
+    width: 190px;
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    font-size: 18px;
+}
+
