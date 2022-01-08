@@ -1,7 +1,9 @@
 import DropDownMenu from "./dropdownmenu/DropDownMenu"
 import "./resNavBar.css"
+import { useState } from "react"
 
 export default function ResNavBar() {
+    const [drop, setDrop] = useState(false);
     return (
         <>
         <div className='resNavBar'>
@@ -21,12 +23,13 @@ export default function ResNavBar() {
                     <li className='resNavBarItems'>LOGIN</li>
                     <li className='resNavBarItems'>REGISTER</li>
                 </ul>
-                <i class="dropDownBars fas fa-bars"></i>
+                <i class="dropDownBars fas fa-bars" onClick={drop? () =>setDrop(false): () =>setDrop(true)}></i>
                 
             </div> 
                       
         </div>
-        <DropDownMenu /> 
+        {drop && <DropDownMenu /> }
+        
         </>
         
         

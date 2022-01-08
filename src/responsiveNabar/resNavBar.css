@@ -39,6 +39,7 @@ flex:3;
     font-size: 25px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .resNavBarItems{
