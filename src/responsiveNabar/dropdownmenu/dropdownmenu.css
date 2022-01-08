@@ -1,0 +1,31 @@
+.dropdownmenulist{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.dropdownmenulistitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.dropdownmenulistitems:hover{
+    background-color: rgb(36, 36, 36);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 950px) {
+    .dropdownmenulist{
+        display: flex;
+    }
+  }
